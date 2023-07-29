@@ -1,0 +1,36 @@
+.box{
+    width: 350px;
+    height: 200px; 
+    background-color: aqua;
+    border: 1px solid black;
+    background-image: url(./image1.jpg);
+    background-repeat: no-repeat;
+   margin-top: 20%;
+   margin-left: 35%;
+
+    
+}
+
+button{
+    margin-top: 100px;
+    margin-left: 115px;
+    border-radius: 2px;
+    transition: transform .4s
+
+
+}
+
+button:hover{
+    background-color: white;
+    border-radius: 20px;
+    transform: scale(1.2);
+
+}
+
+ p{
+    color: solid black;
+    font-size: large;
+    font-weight: bolder;
+    margin-left: 40px;
+    background-color: white;
+ }
